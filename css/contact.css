@@ -6,3 +6,13 @@
 body{
   background-color: teal;
 }
+
+ .social-logos img{
+  /* background-image: url('/img/github-logo.png'); */
+  height: 50px;
+  width: 50px;
+}
+
+#rl{
+  font-family: 'Indie Flower', cursive;
+}

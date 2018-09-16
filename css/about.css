@@ -5,27 +5,63 @@
 
 html{
   background-image: url('../img/words.png');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
 }
+
 
 body{
   background-color: teal;
 }
 
-#rl{
-  font-family: 'Indie Flower', cursive;
+.wrapper{
+  /* width: 90%; */
+  /* margin: 0 auto; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 
+header{
+  /* background-color: white; */
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  border-bottom: 3px solid;
+  /* height: 50px; */
+}
+
+
+h1{
+  color: black;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#active{
+  /* padding-right: 6px; */
+  border-radius: 30%;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
 
 li{
   display: inline;
-
+  /* background-color: black; */
+  height: 200px;
 }
-
-.navbar a{
-  text-decoration: none;
-}
-#active{
-  color: white;
+.navbar{
+  /* padding: 10%; */
+  font-size: 130%;
+  margin-top: 3vh;
+  margin-left: 60%;
+  grid-column-start: 2;
 }

@@ -19,8 +19,14 @@ header{
   grid-template-columns: 1fr;
 }
 
+a{
+  text-decoration: none;
+}
+
 #rl{
   /* border: 2px solid; */
+
+  color: black;
   margin: 0 auto;
   margin-top: 20vh;
   display: flex;

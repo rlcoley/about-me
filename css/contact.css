@@ -6,13 +6,72 @@
 body{
   background-color: teal;
 }
+/* header and navbar */
 
- .social-logos img{
-  /* background-image: url('/img/github-logo.png'); */
-  height: 30px;
-  width: 30px;
+header{
+  /* background-color: white; */
+  grid-column-start: 1;
+  /* grid-column-end: 4; */
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  border-bottom: 3px solid;
+  height: 55px;
+  margin-top: 2%
 }
 
 #rl{
+  margin-left: 1%;
+  margin-top: 2%;
   font-family: 'Indie Flower', cursive;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar #active li {
+  background: black;
+  border-radius: 10%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.navbar{
+  margin-top: 3%;
+  margin-left: 65%;
+  /* border: 2px solid; */
+}
+
+li{
+  display: inline;
+  /* background-color: black; */
+  /* height: 200px; */
+  margin-right: 20px;
+}
+
+/* header/ navbar end */
+
+p{
+  font-size: 30px;
+}
+
+.contact-me{
+  margin-top: 20%;
+  border-bottom: 2px solid black;
+  width: 20%;
+}
+
+
+/* footer{
+  position: absolute;
+  top: 90%;
+} */
+
+/* logo */
+.social-logos img{
+  height: 40px;
+  width: 40px;
 }

@@ -3,10 +3,29 @@
   margin: 0;
 }
 
+html{
+  background-image: url('../img/words.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body{
   background-color: teal;
 }
 
 #rl{
   font-family: 'Indie Flower', cursive;
+}
+
+
+li{
+  display: inline;
+
+}
+
+.navbar a{
+  text-decoration: none;
+}
+#active{
+  color: white;
 }

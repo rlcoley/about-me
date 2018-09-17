@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../img/me.png");
+  background-image: url("../img/words.png");
 }
 
 /* header and navbar */
@@ -21,7 +21,7 @@ header{
   background-color: teal;
   height: 60px;
   /* margin-top: ; */
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
 #rl{
@@ -73,10 +73,10 @@ li{
   /* grid-gap: 2px; */
 }
 
-.cc{
+.me{
   color: white;
   font-family: 'Indie Flower', cursive;
-  margin-left: 40%;
+  margin-left: 46%;
   /* margin: 29 auto; */
   /* border: 2px solid yellow; */
   /* grid-column-start: 2; */
@@ -87,8 +87,9 @@ li{
  .content{
   margin-top: 2%;
   margin-left: 50px;
+  padding: 2%;
   color: white;
-  border: 2px solid orange;
+  border: 2px solid teal;
   justify-content: center;
   display: inline-block;
 }
@@ -100,7 +101,7 @@ li{
 
 .right{
   width: 300px;
-  margin-left: 12%;
+  /* margin-left: 12%; */
 }
 
 

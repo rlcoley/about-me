@@ -101,53 +101,29 @@ li{
 
 .right{
   width: 300px;
+  /* margin-left: 12%; */
 }
 
 
 /* At least 3 breakpoints are used with media queries. (480px, 768px, 992px). */
 
-@media all and (min-width: 769) and (max-width: 992) {
-    .test{
-      width: 500px;
-    }
-    .content{
-      font-size: 12px;
-      width: 200px;
-    }
-}
 
-@media all and (min-width:481) and (max-width: 768) {
-  .test{
-    width: 50%;
-  }
+@media all and (max-width: 1199px) {
+
+.test{
+  width: 500px;
+}
   .content{
-    font-size: 13px;
+    font-size: 12px;
     width: 200px;
-  }
-  .left{
-    margin-top: 200px;
-    padding-top: 200px;
-    font-size: 13px;
+    /* height: 20%; */
   }
 }
-
-
-@media all and (max-width: 480) {
-  .test{
-    width: 60%;
-  }
-  .content{
-   font-size: 16px;
-   width: 212px;
- }
-}
-
-
 
 /* At least 3 breakpoints are used with media queries. (480px, 768px, 992px). */
 
 
-/* @media all and (max-width: 1289px) {
+@media all and (max-width: 1289px) {
 
  .test{
    width: 50%;
@@ -155,23 +131,24 @@ li{
   .content{
     font-size: 13px;
     width: 200px;
-
+    /* padding-bottom: 10%; */
   }
   .left{
-    margin-to: 200px;
+    margin-to: 200px; */
      padding-top: 200px;
      font-size: 13px;
   }
-} */
+}
 
 /* At least 3 breakpoints are used with media queries. (480px, 768px, 992px). */
 
 
-/* @media all and (max-width: 1112px) {
+@media all and (max-width: 1112px) {
 
+/* stoping css animation. not sure why yet */
  .test{
    width: 60%;
-
+   /* height: 40%; */
  }
 
    .content.left{
@@ -184,9 +161,10 @@ li{
 
 @media all and (max-width: 999px) {
 
+/* stoping css animation. not sure why yet */
  .test{
-   width: 70%;
-
+   width: 60%;
+   /* height: 40%; */
  }
 
    .content.left{
@@ -199,9 +177,11 @@ li{
 
 
 @media all and (max-width: 982px) {
+
+/* stoping css animation. not sure why yet */
  .test{
    width: 65%;
-
+   /* height: 40%; */
  }
 
    .content{
@@ -215,21 +195,39 @@ li{
 }
 
 
-@media all and (min-width:) (max-width: 944px) {
- .test{
-   width: 80%;
 
+@media all and (max-width: 944px) {
+
+/* stoping css animation. not sure why yet */
+.navbar{
+  /* border: 2px solid yellow; */
+  width: 300px;
+  margin-left: 100px;
+}
+ .test{
+   width: 600px;
+   height: 700px;
  }
 
-   .content{
-    font-size: 16px;
+   .content.left,.content.right{
+    font-size: 12px;
     width: 212px;
+    /* line-height: 20px; */
+    /* height: 444px; */
   }
-  .left{
-    font-size: 13px;
-    line-height: 18px;
+  .content.right{
+    margin-top: 130px;
+    /* font-size: 13px; */
+    /* line-height: 18px; */
   }
-} */
+}
+
+@media all and (max-width: 480) {
+  .test{
+    width: 20%;
+  }
+}
+
 
 /* At least 3 breakpoints are used with media queries. (480px, 768px, 992px). */
 

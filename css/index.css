@@ -21,6 +21,8 @@ header{
 
 a{
   text-decoration: none;
+  width: 40%;
+  border: 2px solid orange;
 }
 
 #rl{
@@ -34,6 +36,8 @@ a{
   height: auto;
   font-size: 50vh;
   font-family: 'Indie Flower', cursive;
+  border: 2px solid;
+  width: 60%;
 }
 
 span{

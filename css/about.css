@@ -4,8 +4,7 @@
 }
 
 body {
-    background-color: teal;
-
+  background-image: url("../img/me.png");
 }
 
 /* header and navbar */
@@ -19,8 +18,10 @@ header{
   grid-template-columns: 1fr 1fr;
   display: grid;
   border-bottom: 3px solid;
-  height: 55px;
-  margin-top: 2%
+  background-color: teal;
+  height: 60px;
+  /* margin-top: ; */
+  padding-top: 2%;
 }
 
 #rl{
@@ -100,6 +101,11 @@ li{
 .right{
   width: 300px;
   margin-left: 12%;
+}
+
+
+.test:hover{
+  /* height: ; */
 }
 
 @keyframes createBox {

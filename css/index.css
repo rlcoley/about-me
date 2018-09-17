@@ -22,7 +22,7 @@ header{
 a{
   text-decoration: none;
   width: 40%;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
 }
 
 #rl{

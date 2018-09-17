@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../img/words.png");
+  background-image: url("../img/me.png");
 }
 
 /* header and navbar */
@@ -101,13 +101,139 @@ li{
 
 .right{
   width: 300px;
-  /* margin-left: 12%; */
 }
 
 
-.test:hover{
-  /* height: ; */
+/* At least 3 breakpoints are used with media queries. (480px, 768px, 992px). */
+
+@media all and (min-width: 769) and (max-width: 992) {
+    .test{
+      width: 500px;
+    }
+    .content{
+      font-size: 12px;
+      width: 200px;
+    }
 }
+
+@media all and (min-width:481) and (max-width: 768) {
+  .test{
+    width: 50%;
+  }
+  .content{
+    font-size: 13px;
+    width: 200px;
+  }
+  .left{
+    margin-top: 200px;
+    padding-top: 200px;
+    font-size: 13px;
+  }
+}
+
+
+@media all and (max-width: 480) {
+  .test{
+    width: 60%;
+  }
+  .content{
+   font-size: 16px;
+   width: 212px;
+ }
+}
+
+
+
+/* At least 3 breakpoints are used with media queries. (480px, 768px, 992px). */
+
+
+/* @media all and (max-width: 1289px) {
+
+ .test{
+   width: 50%;
+ }
+  .content{
+    font-size: 13px;
+    width: 200px;
+
+  }
+  .left{
+    margin-to: 200px;
+     padding-top: 200px;
+     font-size: 13px;
+  }
+} */
+
+/* At least 3 breakpoints are used with media queries. (480px, 768px, 992px). */
+
+
+/* @media all and (max-width: 1112px) {
+
+ .test{
+   width: 60%;
+
+ }
+
+   .content.left{
+    font-size: 15px;
+    width: 240px;
+  }
+
+}
+
+
+@media all and (max-width: 999px) {
+
+ .test{
+   width: 70%;
+
+ }
+
+   .content.left{
+    font-size: 15px;
+    width: 240px;
+  }
+
+}
+
+
+
+@media all and (max-width: 982px) {
+ .test{
+   width: 65%;
+
+ }
+
+   .content{
+    font-size: 16px;
+    width: 212px;
+  }
+  .left{
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+
+@media all and (min-width:) (max-width: 944px) {
+ .test{
+   width: 80%;
+
+ }
+
+   .content{
+    font-size: 16px;
+    width: 212px;
+  }
+  .left{
+    font-size: 13px;
+    line-height: 18px;
+  }
+} */
+
+/* At least 3 breakpoints are used with media queries. (480px, 768px, 992px). */
+
+
 
 @keyframes createBox {
   from {
@@ -115,37 +241,5 @@ li{
   }
   to {
     transform: scale(1);
-  }
-}
-
-
-
-@keyframes myFirstAnimation {
-  0%{
-    top: 10px;
-    left: 10px;
-  }
-  25%{
-    /* top: 20px; */
-    /* left: 20px; */
-    background-color: pink;
-
-  }
-  50%{
-    top: 30px;
-    left: 30px;
-    background-color: brown;
-    box-shadow: 5px 5px 5px black
-  }
-  75%{
-    top: 50px;
-    left: 70px;
-    box-shadow: 5px 5px 5px black
-  }
-  100%{
-    top: 30px;
-    left: 100px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px black
   }
 }
